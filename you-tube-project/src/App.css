@@ -1,0 +1,112 @@
+h1 {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(40, 60, 110);
+  color: aliceblue;
+  text-shadow: 2px 2px 6px rgb(205, 199, 199);
+  position: sticky;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 6px grey;
+}
+
+.video-gallery {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.video-card {
+  display: flex;
+  border: 1px solid lightgrey;
+  background-color: rgb(165, 164, 160);
+  margin: 5px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 9px rgb(61, 60, 60);
+  height: 300px;
+}
+
+.vedio-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.thumbnail {
+  width: 400px;
+  height: 70%;
+  padding: 10px;
+  border: 1px solid rgb(85, 82, 82);
+  border-radius: 7px;
+  box-shadow: 4px 4px 6px rgb(61, 60, 60);
+  background-color: rgb(200, 191, 180);
+}
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 20px 70px 5px;
+  width: 100%;
+}
+
+.channel-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+}
+
+.channel-logo {
+  height: 3rem;
+  width: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 4px 4px 9px rgb(37, 36, 36);
+}
+
+.channel-name {
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 3px 3px 5px rgb(37, 36, 36);
+  text-transform: uppercase;
+  color: rgb(29, 26, 26);
+}
+
+.video-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(29, 26, 26);
+}
+
+.engagement-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(29, 26, 26);
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(119, 122, 122);
+  box-shadow: 4px 4px 6px rgb(67, 66, 66);
+}
+
+.views {
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(29, 26, 26);
+  margin-right: 5rem;
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(119, 122, 122);
+  box-shadow: 4px 4px 6px rgb(67, 66, 66);
+}
